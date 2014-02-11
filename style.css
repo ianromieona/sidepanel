@@ -1,0 +1,51 @@
+#trigger-side {
+	position:absolute;
+	right: 0;
+	top: 0;
+	height:30px;
+	width:33px;
+	background:#353535;
+	background: url("caret.png");
+	opacity:0.5;
+	z-index: 999;
+}
+#trigger-side:hover {
+	cursor: pointer;
+	opacity: 1;
+ 	transition: visibility 0s 2s, opacity 2s linear;
+}
+#side-container {
+	position:fixed;
+	height: 100%;
+	width:300px;
+	background: #353535;
+	right: -300;
+	top: 0;
+	z-index: 999;
+}
+#side-photo {
+	vertical-align: middle;
+    text-align: center;
+	margin-top: 10px;
+	-moz-border-radius: 100%;
+    -webkit-border-radius: 100%;
+    border-radius: 100%;
+}
+#authName, #authTitle {
+	color: #E3E3E3;
+	font-family: 'Alef', sans-serif;
+}
+#authName {
+	font-size:20px;
+
+}
+#body-mask{
+	top:0;
+	left: 0;
+	position: absolute;
+	height: 100%;
+	width:100%;
+	background: #353535;
+	opacity: 0.5;
+	display: none;
+}
